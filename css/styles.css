@@ -10,3 +10,54 @@ section {
 .menu ul li {
     display: inline;
 }
+
+header {
+    padding: 20px 0;
+}
+
+.logo , .menu {
+    display: inline-block;
+}
+
+.menu ul li a {
+    color: #dc0100;
+    text-decoration: none;
+}
+
+.menu ul li a{
+    display: inline;
+    padding: 0 25px;
+    font-size: 25px;
+}
+
+.menu {
+    position: relative;
+    bottom: 40px;
+}
+
+.menu ul li a:hover {
+    color: #000;
+    border-bottom: 3px solid #000;
+    padding-bottom: 25px;
+
+}
+
+.slide {
+    background-image: url(/img/fundo-de-velocidade-rapida-de-tecnologia-movel-digital_1017-25462.jpg);
+    height: 450px;
+    width: 100%;
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.item {
+    display: inline-block;
+    width: 30%;
+    margin: 1%;
+}
+
+.item img {
+    width: 100%;
+}
