@@ -55,9 +55,57 @@ header {
 .item {
     display: inline-block;
     width: 30%;
-    margin: 1%;
+    margin: 0.5%;
+    border: 1px solid #c1bcbc;
 }
 
 .item img {
+    width: 98%;
+    padding: 1%;
+}
+
+.item .titulo, .item .preco {
+    font-size: 30px;
+    text-align: center;
+    font-weight: 800;
+}
+
+.btn {
+    background-color: #461b1b;
+    color: #fff;
+    text-align: center;
+    width: 50%;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 20px;
+}
+.item a {
+    text-decoration: none;
+}
+
+footer {
+    background-color: #461b1b;
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    padding: 40px;
+}
+
+footer label, footer input, footer textarea {
     width: 100%;
+    margin: 10px;
+}
+footer form {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.whats {
+    background-color: green;
+    color: #fff;
+    position: fixed; /* deixa fixo na tela do usuario para onde ele vai ela vai estar la */
+    bottom: 0; /* serve para deixar o "item" la em baixo */
+    right: 150px; /* serve para mandar ele para o lado direito e ter uma distancia da tela */
+    padding: 20px
 }
