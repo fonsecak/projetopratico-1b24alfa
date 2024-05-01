@@ -109,3 +109,31 @@ footer form {
     right: 150px; /* serve para mandar ele para o lado direito e ter uma distancia da tela */
     padding: 20px
 }
+
+.sobre {
+    font-size: 22px;
+    line-height: 22px; 
+}
+
+.sobre p,.sobre img {
+    display: inline-block;
+    width: 45%;
+    padding: 1%;
+}
+
+.sobre h1 {
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 2px solid #461b1b;
+    margin: 0 40%;
+}
+
+.sobre p {
+    float: left;
+    text-align: justify;
+}
+
+.sobre img {
+    border-radius: 50px;
+}
